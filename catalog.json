@@ -1,17 +1,6 @@
 {
   "schemaVersion": 1,
-  "mods": [
-    {
-      "id": "intelligent-speed-assistance",
-      "name": "Intelligent Speed Assistance",
-      "author": "ZackaryH8",
-      "description": "An optional speed assistant with a HUD and configurable accelerator limiting.",
-      "version": "1.0.2",
-      "kind": "resource",
-      "homepage": "https://github.com/ZackaryH8/omxmod-isa",
-      "readmeUrl": "https://raw.githubusercontent.com/ZackaryH8/omxmod-isa/v1.0.2/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/ZackaryH8/omx-mods/master/packages/intelligent-speed-assistance-1.0.2.zip",
-      "sha256": "BA6C137F0F806B6BBEE946D82EBE971EA4A41D20E6B370F5403AA8000A375E6A"
-    }
+  "repositories": [
+    "https://github.com/ZackaryH8/omxmod-isa"
   ]
 }
