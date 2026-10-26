@@ -5,9 +5,10 @@ This repository publishes the mod list shown in every OMX client's **Mods** menu
 The first listed package, Intelligent Speed Assistance, is MIT licensed and also ships inside OMX.
 
 To add another author's mod, link its original HTTPS ZIP download in `downloadUrl` when possible.
-Set the original author, project homepage, version, and SHA-256 in the catalog. Obtain permission
-before copying somebody else's archive into this repository. To publish an update, keep the same
-`id`, change `version`, and update `downloadUrl` and `sha256` for the new ZIP.
+Set the original author, project homepage, version, and SHA-256 in the catalog. An optional
+`readmeUrl` displays the mod's README inside OMX. Obtain permission before copying somebody else's
+archive into this repository. To publish an update, keep the same `id`, change `version`, and
+update `downloadUrl` and `sha256` for the new ZIP. A Git tag alone does not update the catalog.
 
 OMSI content ZIPs contain folders such as `Vehicles`, `maps`, `Sceneryobjects`, or `Splines` at
 their root, optionally inside one enclosing folder. OMX code resource ZIPs contain
